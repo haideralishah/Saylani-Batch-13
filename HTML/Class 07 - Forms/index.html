@@ -9,34 +9,112 @@
 
 <body>
     <h1>Hello World</h1>
+    <fieldset>
+        <legend>Main Form</legend>
+        <form method="post">
+            <label>
+                User Name: <input type="text" name="user-name" />
+            </label>
+            <br />
 
-    <form method="post">
-        <label>
-            User Name: <input type="text" name="user-name" />
-        </label>
+            <label>
+                Password: <input type="password" name="password" />
+            </label>
 
-        <br />
+            <br /> <br />
+            <label>
+                Write something about yourself within 150 charachters: <br />
+                <textarea name="about-you" placeholder="I am software engineer..." maxlength="150"></textarea>
+            </label>
+            <br />
+            <label>
+                Upload Profile Picture:
+                <input type="file" name="profile-picture" />
+            </label>
+            <br /> <br />
 
-        <label>
-            Password: <input type="password" name="password" />
-        </label>
-        <br />
+            <h3>Gender:</h3>
 
-        <label>
-            Upload CV: <input type="file" name="CV" />
-        </label>
-        <br /> <br />
+            <label>
+                Male: <input type="radio" name="gender" value="male" />
+            </label>
+            <label>
+                Female: <input type="radio" name="gender" value="female" checked />
+            </label>
+            <label>
+                Others: <input type="radio" name="gender" value="others" />
+            </label>
+
+            <br /> <br />
+            <h3>Select Subjects:</h3>
+
+            <label>
+                Mathematics: <input type="checkbox" name="subjects" value="mathematics" checked />
+            </label>
+            <label>
+                Computer Science: <input type="checkbox" name="subjects" value="computer science" />
+            </label>
+            <label>
+                Physics: <input type="checkbox" name="subjects" value="physics" checked />
+            </label>
+            <br /> <br />
+
+            <p>Select class timings:</p>
+
+            <select name="class-timings">
+                <option value="9 AM">9 AM</option>
+                <option value="2 PM" selected>2 PM</option>
+                <option value="4 PM">4 PM</option>
+                <option value="9 PM">9 PM</option>
+            </select>
+            <p>Select Country Code multiple options can be selected press ctrl and select:</p>
+            <select name="country-code" multiple>
+                <option value="+92">Pakistan</option>
+                <option value="+91">India</option>
+                <option value="+880">Bangladesh</option>
+            </select>
 
 
-        <label>
-            Write something about yourself: <br />
-            <textarea placeholder="Write something about you" name="about-you"></textarea>
-        </label>
-        <br /> <br /><br />
-        <input type="submit" value="Register" />
-    </form>
+            <br /> <br />
+
+            <input type="submit" value="Register" />
+        </form>
+    </fieldset>
 
 
+    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <fieldset>
+        <legend>Register Form</legend>
+        <form>
+            <label>
+                Email: <input type="email">
+            </label>
+            <br /><br /><br />
+            <label>
+                password: <input type="password">
+            </label>
+            <br /><br /><br />
+            <input type="submit" value="register">
+        </form>
+    </fieldset>
+    <br /><br /><br />
+    <br /><br /><br />
+    <fieldset>
+        <legend>Personal Info Form</legend>
+        <form>
+            <label>
+                User Name: <input type="text">
+            </label>
+            <br />
+            <label>
+                Tell a bit about yourself: <textarea placeholder="I am Talal..."></textarea>
+            </label>
+            <br />
+            <input type="submit">
+        </form>
+        <fieldset>
+
+            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
 </body>
 
 </html>
