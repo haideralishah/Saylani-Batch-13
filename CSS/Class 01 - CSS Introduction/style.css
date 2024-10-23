@@ -1,0 +1,74 @@
+/* Universal Selector */
+/* 
+* {
+  background-color: burlywood;
+}
+   */
+
+/* Type Selector */
+/* 
+h1 {
+  color: red;
+  background-color: yellow;
+}
+
+p {
+  color: purple;
+}
+ */
+
+/* ID Selector */
+
+/* 
+#para-description {
+  color: green;
+}
+ */
+
+/* Class Selector */
+/* 
+.css-special {
+  background-color: yellow;
+  color: green;
+}
+
+.odd-para {
+  background-color: yellow;
+}
+
+h3.odd-para {
+  border: 7px solid purple;
+}
+ */
+
+/* h1,
+h3 {
+  border: 2px solid red;
+  background-color: yellow;
+  color: green;
+} */
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+}
+
+i {
+  color: green;
+}
+i {
+  color: red;
+}
+
+p {
+  color: green !important;
+}
+#intro {
+  color: red;
+}
+p {
+  color: blue;
+}
