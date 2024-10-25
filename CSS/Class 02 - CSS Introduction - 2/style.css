@@ -1,0 +1,78 @@
+/* 
+
+color
+background-color
+border
+text-align
+font-family
+
+*/
+
+/* 
+* {
+  background-color: wheat;
+}
+
+h1 {
+  color: red;
+}
+
+#special {
+  border: 1px solid red;
+}
+
+.js-para {
+  color: rebeccapurple;
+}
+
+h3.js-para {
+  border: 1px solid rebeccapurple;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.learning-swift {
+  background-color: white;
+  border: 10px solid black;
+}
+
+li > a {
+  color: green;
+}
+
+#container  > a {
+  color: burlywood;
+} */
+
+/* #container a {
+  color: green;
+}
+
+div,
+h1 {
+}
+
+div > h1 {
+}
+
+div h1 {
+} 
+
+div + h1{
+}
+
+div ~ h1{
+}
+
+*/
+
+h3.js-para + p {
+  text-align: center;
+}
+
+h3 ~ p {
+  background-color: greenyellow;
+}
