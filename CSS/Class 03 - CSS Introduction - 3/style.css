@@ -1,0 +1,56 @@
+/*
+  serif
+  sans serif
+  monospace
+*/
+/* 
+* {
+  font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+  font-family: "Courier New", monospace;
+}
+
+i {
+  color: green;
+}
+i {
+  color: red;
+}
+
+p b {
+  color: blue !important;
+}
+
+p b {
+  color: red;
+}
+
+b {
+  color: pink;
+}
+
+#intro {
+  color: purple;
+}
+p {
+  color: green;
+} */
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: red;
+  padding: 15px;
+  background-color: gray;
+}
+.page {
+  border: 10px solid green;
+  color: purple;
+  background-color: pink;
+  padding: 25px;
+  /* background-color: #efefef; */
+}
+
+p {
+  border: inherit;
+  padding: inherit;
+}
