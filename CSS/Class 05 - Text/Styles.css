@@ -1,0 +1,42 @@
+body {
+  border: 1px solid gray;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Heading {
+  font-size: 16pt;
+  font-style: oblique;
+}
+
+h1 {
+  letter-spacing: 14px;
+  word-spacing: 12px;
+  font-size: 75%;
+  text-shadow: -2px -2px 2px rgb(114, 112, 112);
+}
+
+.Bold-text {
+  text-decoration: overline;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.font-sizing {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 50px;
+  letter-spacing: 8px;
+  text-indent: 40px;
+}
+
+p::first-letter {
+  font-weight: 600;
+  color: red;
+}
+
+p::first-line {
+  color: darkcyan;
+}

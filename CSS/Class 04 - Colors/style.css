@@ -1,3 +1,15 @@
-h1 {
+/* h1 {
   color: #3e5b99;
+  background-color: hsla(305, 57%, 41%, 0.5);
+} */
+
+div {
+  background-color: #ffc0cb;
+  padding: 15px;
+}
+
+h1 {
+  background-color: #ffff00;
+  padding: inherit;
+  opacity: 0.4;
 }

@@ -1,0 +1,82 @@
+/* * {
+  font-size: 20px;
+} */
+
+/* h1 {
+  font-size: 40px;
+} */
+/* 
+div {
+  font-size: 40px;
+}
+
+p {
+  font-size: 75%;
+} */
+/* p {
+  font-size: 25px;
+}
+.special {
+  color: #ff0000;
+  font-size: 0.8em;
+} */
+
+@font-face {
+  font-family: alexbrush;
+  src: url("fonts/alex-brush/AlexBrush-Regular.ttf");
+}
+
+@font-face {
+  font-family: kaushanscript;
+  src: url("fonts/kaushan-script/KaushanScript-Regular.otf");
+}
+
+h1 {
+  font-family: alexbrush;
+}
+
+p {
+  font-family: kaushanscript;
+}
+
+a:link {
+  color: #0000ff;
+  font-style: italic;
+}
+
+a:visited {
+  color: red;
+}
+
+h1:hover {
+  background-color: black;
+  color: white;
+}
+/* 
+a:hover {
+  background-color: green;
+}
+
+p:hover {
+  border: 1px solid red;
+} */
+
+input[type="password"] {
+  background-color: #ffc0cb;
+}
+
+input[type="text"] {
+  background-color: #adff2f;
+}
+
+input:focus {
+  background-color: #baadad;
+}
+
+button:active {
+  background-color: #ff0000;
+}
+
+button {
+  text-shadow: 1px 1px 5px red;
+}
