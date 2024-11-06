@@ -1,0 +1,51 @@
+.border-learning {
+  border: 5px dashed #0000ff;
+
+  /* border-width: 5px;
+  border-style: double;
+  border-color: #00ff00; */
+
+  /* border-right: 5px double #ff0000;
+  border-left: 5px solid #00ff00; */
+
+  /*   
+  border: 10px solid #ff0000;
+    
+  border-left-width: 5px;
+  border-right-width: 40px;
+
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+
+  border-right-color: #00ff00; */
+
+  /* border: 1px solid black; */
+
+  /* border-width: 5px 20px 50px 10px;
+  border-style: solid dashed dotted double;
+  border-color: #000000 #ff0000 #00ff00 #0000ff; */
+}
+
+.margin-learning {
+  margin: 30px;
+  /* margin-top: 30px;
+  margin-left: 50px; */
+
+  /* margin: 60px 30px 20px 90px; */
+}
+
+.padding-learning {
+  /* padding: 30px; */
+  /* padding-left: 50px; */
+  padding: 30px 60px 5px 20px;
+}
+
+.Width-Learning {
+  /* width: 400px; */
+  /* max-width: 600px; */
+  /* min-width: 200px; */
+  /* min-height: 150px;
+  max-height: 200px; */
+  height: 500px;
+  overflow: scroll;
+}
