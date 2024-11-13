@@ -1,0 +1,39 @@
+/* * {
+  color: red;
+  background-color: pink;
+}
+
+.special {
+  padding: 20px;
+  border: 10px solid black;
+  border-image: url("images/border2.jfif") 100 100 100 100 repeat;
+} */
+/* * {
+  background-color: #000000;
+  color: #ffffff;
+  font-style: italic;
+  font-family: monospace;
+}
+.special {
+  padding: 20px;
+  border: 40px solid #ffffff;
+  border-image: url("images/skull.jpg") 58 58 58 58 stretch;
+} */
+
+/* .special {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 80px;
+  border-radius: 80px 40px / 20px 10px;
+  border-top-left-radius: 80px 40px;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 90px;
+} */
+
+.special {
+  padding: 20px;
+  /* background-color: red; */
+  border: 1px solid red;
+  box-shadow: inset -15px 15px 25px 15px pink;
+}
