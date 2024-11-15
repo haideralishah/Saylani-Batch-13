@@ -1,9 +1,9 @@
 /* ol { */
-    /* list-style-type: disc;
+/* list-style-type: disc;
     list-style-position: inside; */
-    /* list-style-image: url("Images/Star.png"); */
-    /* list-style-type: none; */
-    /* list-style: inside square; */
+/* list-style-image: url("Images/Star.png"); */
+/* list-style-type: none; */
+/* list-style: inside square; */
 /* } */
 
 /* li{
@@ -11,7 +11,7 @@
     height: 20px;
 } */
 
-table{
+/* table{
     border: 1px solid black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
@@ -23,7 +23,6 @@ tr, td, th{
 }
 
 th{
-    border-radius: 10px;
     font-weight: 700;
     background-color: gray;
 }
@@ -33,11 +32,130 @@ tr:hover{
 }
 
 .even{
-    /* background-color: gray; */
+    background-color: gray;
     empty-cells: hide;
     
 }
 
 .money{
     text-align: right;
+} */
+
+/* table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    border-spacing: 5px 10px;
+    border-collapse: collapse;
+}
+
+tr, th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:hover{
+    background-color: aquamarine;
+}
+
+th{
+    background-color: darkgray;
+} */
+
+.form-container {
+  border: 1px solid black;
+}
+
+form {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* border: 1px solid black; */
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+fieldset {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+legend {
+  text-align: center;
+  font-size: 23px;
+  text-transform: lowercase;
+}
+
+.name label {
+  margin-right: 23px;
+}
+
+.email label {
+  margin-right: 28px;
+}
+
+input {
+  margin-bottom: 5px;
+  background-color: rgb(190, 243, 243);
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #9f9f9f;
+  color: white;
+  padding: 3px;
+  /* width: 100%; */
+}
+
+input:hover {
+  background-color: #9ef3f3;
+}
+
+input:focus {
+  background-color: #63dfdf;
+}
+
+.email2 {
+  background-color: #fffcfc;
+  color: #7171e8;
+}
+
+.email2:hover {
+  background-color: #b8b8b8;
+}
+
+.email2:focus {
+  background-color: #b8b8b8;
+}
+.submit-button {
+  border: 1px solid #ed931e;
+  background-color: burlywood;
+  color: black;
+  border-radius: 5px;
+  margin-top: 12px;
+  width: 100%;
+  padding: 4px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.submit-button:hover {
+  background-color: rgb(212, 164, 101);
+  cursor: pointer;
+}
+
+.submit-button2 {
+  background-color: #7171e8;
+  border: 1px solid #4040e3;
+  color: black;
+  border-radius: 5px;
+  margin-top: 12px;
+  width: 100%;
+  padding: 4px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.submit-button2:hover {
+  background-color: #5b5beb;
+}
+
+body {
+  cursor: url("Images/myBall.cur"), auto;
 }
