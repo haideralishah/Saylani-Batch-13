@@ -1,0 +1,23 @@
+.col-1 {
+  width: 70%;
+}
+
+.col-2 {
+  width: 30%;
+}
+
+.col-1,
+.col-2 {
+  float: left;
+}
+
+.col-1-of-3 {
+  clear: left;
+}
+
+.col-1-of-3,
+.col-2-of-3,
+.col-3-of-3 {
+  width: 33.3%;
+  float: left;
+}
