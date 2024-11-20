@@ -1,0 +1,67 @@
+/* a {
+  text-decoration: none;
+}
+
+.nav-bar > li > a {
+  color: green;
+}
+
+a:hover {
+  color: red;
+  background-color: antiquewhite;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul,
+li {
+  display: inline;
+} */
+
+/* .greet {
+  background-color: yellow;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+} */
+
+/* h2 {
+  margin-left: 50px;
+  position: relative;
+  left: 50px;
+} */
+
+/* .green-box {
+  background-color: green;
+  width: 40%;
+  height: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+  left: 130px;
+  z-index: -1;
+}
+body {
+  padding: 0;
+  margin: 0;
+} */
+
+/* h1 {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+} */
+
+.col-1,
+.col-3 {
+  width: 20%;
+}
+.col-2 {
+  width: 60%;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+  float: left;
+}
