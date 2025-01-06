@@ -1,0 +1,96 @@
+/* h1{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+} */
+
+/* .main-container{
+    height: auto;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px; */
+/* z-index: 10; */
+/* } */
+/* 
+.card{
+    background-color: #e33737;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    width: 30%;
+    height: 100px; */
+/* z-index: -1; */
+/* } */
+
+/* .main-container{
+    position: absolute;
+    background-color: aqua;
+    border: 1px solid black;
+    height: 200px;
+} */
+
+/* .sub-container{
+    position: absolute;
+    top: 80px;
+    left: 50px ;
+    background-color: aquamarine;
+    border: 1px solid red;
+    width: 50%;
+    height: 70px;
+} */
+
+/* h1 { */
+  /* background-color: red;
+  border-radius: 5px;
+  position: sticky;
+  top: 10px; */
+/* } */
+
+/* img{ */
+    /* width: 200px; */
+    /* border: 5px solid red; */
+    /* height: 150px; */
+/* } */
+
+/* .Image{ */
+    /* color: aliceblue;
+    font-size: 50px;
+    background-image: url("Image/shoaib-akhter.jpg");
+    background-size: cover;
+    background-color: burlywood;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    border: 4px solid black;
+    width: 100%;
+    max-height: 100vh; */
+/* } */
+
+/* div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+h1{
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+    bottom: 0;
+    right: 5px;
+} */

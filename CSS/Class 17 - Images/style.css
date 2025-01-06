@@ -1,0 +1,77 @@
+/* body{
+    background-image: url("Images/camera.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+/* div{
+    width: 100%;
+    min-height: 100vh; */
+/* background-image: url("Images/camera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll; */
+/* background: #ff8484 url(Images/camera.jpg) no-repeat center right; */
+/* } */
+
+body {
+  margin: 0;
+  /* padding: 0; */
+  /* border: 1px solid red; */
+}
+
+#main {
+  border: 2px solid black;
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+  /* margin: 0 auto; */
+  /* border: 1px solid blue; */
+  /* width: 50%; */
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  list-style: none;
+  /* border: 1px solid black; */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+li:hover {
+  /* border: 1px solid black; */
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+
+main{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+section{
+    /* border: 1px solid black; */
+    padding: 12px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
+
+footer{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+section:hover{
+    font-size: 20px;
+}

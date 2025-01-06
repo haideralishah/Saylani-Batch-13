@@ -18,3 +18,14 @@ git commit -m "<message>"
 
 To see previous commits
 git log
+
+
+Branch related commands:
+git branch
+git branch <branch name>
+git checkout <branch name>
+
+
+
+To merge first come to parent branch
+git merge <branch name>

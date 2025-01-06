@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    /* border: 1px solid black; */
+    text-align: center;
+    color: aqua;
+}
+
+.Logo {
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    /* width: fit-content; */
+}
+
+.logo-container{
+    width: 5%;
+}
+
+ul{
+    /* border: 1px solid black; */
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+    li:hover{
+        font-size: 18px;
+        text-decoration: underline;
+        cursor: pointer;
+        color: aqua;
+    }
+
+nav{ 
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+}
+
+aside{
+    width: 30%;
+}
+
+.side-links{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    /* border: 1px solid black; */
+    width: 70%;
+    min-height: 100vh;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.image-container{
+    width: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card{
+    border: 1px solid black;
+    background-color: burlywood;
+    width: 32%;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 6px gray;
+    border-radius: 10px;
+}
+
+.image-container{
+    border: 1px solid black;
+    width: 32%;
+    box-shadow: 3px 3px 6px gray;
+    border-radius: 10px;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.Image-para{
+    font-size: 12px;
+}
+
+footer{
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 3%;
+    height: 30px;
+}
