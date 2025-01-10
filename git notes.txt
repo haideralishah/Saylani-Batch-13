@@ -29,3 +29,10 @@ git checkout <branch name>
 
 To merge first come to parent branch
 git merge <branch name>
+
+
+git remote add origin <remote URL>
+git push -u origin <branch name>
+
+
+
