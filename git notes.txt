@@ -35,4 +35,7 @@ git remote add origin <remote URL>
 git push -u origin <branch name>
 
 
+git clone URL
+git push -u origin <branch name>
 
+git pull <remot name> <branch name>
