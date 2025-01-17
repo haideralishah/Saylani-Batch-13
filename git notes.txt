@@ -39,3 +39,6 @@ git clone URL
 git push -u origin <branch name>
 
 git pull <remot name> <branch name>
+
+
+To make PR, first resolve all conflicts locally in your current branch.
