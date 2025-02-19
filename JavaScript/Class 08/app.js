@@ -94,16 +94,16 @@
 
 
 
-// let cleanCities = ["Karachi", "Hyderabad", "Peshawar"];
+let cleanCities = ["Karachi", "Hyderabad", "Peshawar"];
 
-// let city = prompt('Where do you live?');
+let city = prompt('Where do you live?');
 
-// for (let i = 0; i < cleanCities.length; i++) {
-//     if (cleanCities[i].toLowerCase() === city.toLowerCase()) {
-//         console.log('You live in a clean city;');
-//         break;
-//     }
-// }
+for (let i = 0; i < cleanCities.length; i++) {
+    if (cleanCities[i].toLowerCase() === city.toLowerCase()) {
+        console.log('You live in a clean city;');
+        break;
+    }
+}
 
 
 
