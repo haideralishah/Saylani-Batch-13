@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <input type="text" onfocus="printMessage(this)" onblur="printMessage(this)" /> -->
+
+
+    <label>
+        Capital Cities:
+        <input type="text" onblur="checkCapitalCity(this)" />
+    </label>
+    <br />
+    <label>
+        Province Name:
+        <input type="text" class="province-name" />
+    </label>
+
+    <p class="error-msg"></p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
