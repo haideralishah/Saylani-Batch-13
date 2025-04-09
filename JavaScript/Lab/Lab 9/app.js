@@ -1,6 +1,8 @@
 let todos = [];
 let olEl = document.querySelectorAll('.all-todos')[0];
 let newTodoEl = document.querySelectorAll('#new-todo')[0];
+let addBtnEl = document.querySelectorAll('.add-btn')[0];
+let editIndex;
 
 function renderTodos() {
     olEl.innerHTML = "";
@@ -11,9 +13,12 @@ function renderTodos() {
                         <button onclick="deleteTodo(${i})">
                             Delete
                         </button>
+                        <button onclick="editTodo(${i})">
+                            Edit
+                        </button>
                     </li>`;
 
-                    
+
         olEl.innerHTML += liEl;
     }
 }
@@ -26,7 +31,19 @@ function addTodo() {
 }
 
 function deleteTodo(index) {
-    console.log(index);
-    // splice receiving index 
-    // call renderTodos
+    todos.splice(index, 1);
+    renderTodos();
+}
+
+function editTodo(index) {
+    let editItem = todos[index];
+    editIndex = index;
+    newTodoEl.value = editItem
+    addBtnEl.innerHTML = "Save";
+    addBtnEl.onclick = saveTodo;
+}
+
+function saveTodo() {
+    console.log(newTodoEl.value);
+    console.log(editIndex);
 }
