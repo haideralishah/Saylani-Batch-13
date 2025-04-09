@@ -17,8 +17,6 @@ function renderTodos() {
                             Edit
                         </button>
                     </li>`;
-
-
         olEl.innerHTML += liEl;
     }
 }
@@ -46,10 +44,11 @@ function editTodo(index) {
 function saveTodo() {
     console.log(newTodoEl.value);
     console.log(editIndex);
-    // update array using splice
-    // call renderTodos
-    // revert save button to add
-    // modify add button function again addTodo
-    // revert edit index to undefined again
-    // clear edit form
+    todos.splice(editIndex, 1, newTodoEl.value);
+    renderTodos();
+    addBtnEl.innerHTML = "Add";
+    addBtnEl.onclick = addTodo;
+    editIndex  = undefined;
+    newTodoEl.value = "";
+    
 }
