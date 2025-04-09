@@ -46,4 +46,10 @@ function editTodo(index) {
 function saveTodo() {
     console.log(newTodoEl.value);
     console.log(editIndex);
+    // update array using splice
+    // call renderTodos
+    // revert save button to add
+    // modify add button function again addTodo
+    // revert edit index to undefined again
+    // clear edit form
 }
