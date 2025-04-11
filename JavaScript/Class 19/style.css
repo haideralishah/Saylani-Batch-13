@@ -1,0 +1,15 @@
+.imgStyle {
+    border: 15px solid lightgreen;
+    border-radius: 10px;
+}
+
+.imgSize {
+    width: 600px;
+    height: 350px;
+}
+
+span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
