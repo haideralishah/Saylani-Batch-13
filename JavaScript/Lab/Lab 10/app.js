@@ -67,7 +67,6 @@ function filterCars(el) {
         }
         else if (el.value === 'Pakistani' && !carsData[i].isImported) {
             filterHoiwiCars.push(carsData[i]);
-
         }
     }
     if(el.value === 'All'){
