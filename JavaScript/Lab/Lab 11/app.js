@@ -39,3 +39,4 @@ function checkUserExistance(users, newUser) {
     }
     return isAlreadyExisting;
 }
+
