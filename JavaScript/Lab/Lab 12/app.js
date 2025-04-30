@@ -110,3 +110,11 @@ console.log(`Title Case Names: [${titleNames}]`);
 
 
 let newNames = ['haider', 'abdullah', 'mustafa', 'asad', 'akram'];
+
+function findNames(namesArr, startingChr) {
+    return namesArr
+        .filter(name => name[0].toLowerCase() === startingChr.toLowerCase());
+}
+
+let filtrdNames = findNames(newNames, "a");
+console.log(`Filtered Names: [${filtrdNames}]`);
