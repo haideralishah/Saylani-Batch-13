@@ -71,4 +71,10 @@ console.log(`AED: [${aed}]`);
 
 
 
-let nums = [2, 9, 15, 16, 18, 21, 24, 36, 39];
+let nums = [2, 6, 9, 15, 16, 18, 21, 24, 36, 39];
+let fltrdNums = nums
+    .filter(num => num % 2 !== 0 && num % 3 === 0);
+
+console.log(fltrdNums);
+
+let names = ['haider', 'abdullah','mustafa'];
