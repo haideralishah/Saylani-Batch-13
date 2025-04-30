@@ -55,3 +55,20 @@ let aed = pkrConverter(pkr, "AED");
 console.log(`USD: [${usd}]`);
 console.log(`Gold: [${gold}]`);
 console.log(`AED: [${aed}]`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let nums = [2, 9, 15, 16, 18, 21, 24, 36, 39];
