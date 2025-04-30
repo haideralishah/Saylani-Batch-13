@@ -77,4 +77,36 @@ let fltrdNums = nums
 
 console.log(fltrdNums);
 
-let names = ['haider', 'abdullah','mustafa'];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let names = ['haider', 'abdullah', 'mustafa'];
+
+let upCaseNames = names
+    .map(name => name.toUpperCase());
+
+console.log(`Upper Case Names: [${upCaseNames}]`);
+
+let titleNames = names.map((name) => {
+    let firstChr = name[0].toUpperCase();
+    let restChr = name.slice(1).toLowerCase();
+    return `${firstChr}${restChr}`;
+})
+
+console.log(`Title Case Names: [${titleNames}]`);
+
+
+let newNames = ['haider', 'abdullah', 'mustafa', 'asad', 'akram'];
